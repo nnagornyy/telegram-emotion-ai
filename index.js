@@ -4,6 +4,9 @@ const token = '1150771677:AAFlSUgvacYTrTVC3EKyKE7OtQWRBrao-2I';
 const { photosProcessMessage } = require('./photo.js');
 const { textProcessMessage } = require('./text.js');
 
+const port = process.env.PORT || 8443;
+const host = process.env.HOST;
+//
 
 const bot = new TelegramBot(token, {polling: true});
 
