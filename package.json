@@ -11,6 +11,6 @@
   "dependencies": {
     "needle": "^2.5.0",
     "node-telegram-bot-api": "0.50.0",
-    "sharp": "^0.25.4"
+    "sharp": "^0.30.5"
   }
 }
